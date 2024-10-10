@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package background.color;
+
+service BackgroundColor {
+  rpc ChangeBackgroundColor (ChangeBackgroundColorRequest) returns (ChangeBackgroundColorReply) {}
+  
+  // TBD
+}
+
+message ChangeBackgroundColorRequest {
+  int32 rgb = 1;
+}
+
+message ChangeBackgroundColorReply {
+  bool ok = 1;
+  int32 new_rgb = 21;
+}

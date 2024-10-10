@@ -1,0 +1,57 @@
+# client
+
+# # dependencies
+# /client/node_modules
+# /client/.pnp
+# /client/.pnp.js
+
+# # testing
+# /client/coverage
+
+# # next.js
+# /client/.next/
+# /client/out/
+
+# # production
+# /client/build
+
+# # misc
+# /client/.DS_Store
+# /client/*.pem
+
+# # debug
+# /client/npm-debug.log*
+
+# # local env files
+# /client/.env*.local
+
+# # vercel
+# /client/.vercel
+
+# # typescript
+# /client/*.tsbuildinfo
+# /client/next-env.d.ts
+
+
+# server
+
+# # dependencies
+# /server/node_modules
+# /server/.pnp
+# /server/.pnp.js
+
+# # testing
+# /server/coverage
+
+# # misc
+# /server/.DS_Store
+# /server/*.pem
+
+# # debug
+# /server/npm-debug.log*
+
+# # local env files
+# /server/.env*.local
+
+# # typescript
+# /server/*.tsbuildinfo
